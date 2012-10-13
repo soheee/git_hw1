@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>질문지</title>
+</head>
+<body>
+	<h1>김소희는?</h1>
+	<form action="/update.php" method="post">
+	이름 : 
+		<input type="text" name="type" value="user"/>
+	<br/>
+	성별 : 
+		<input type="radio" name="sex" value="m"/>남
+		<input type="radio" name="sex" value="f"/>여
+	<br/>
+	나의 생일은 몇월? : <select name="month">
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+		<option value="10">10</option>
+		<option value="11">11</option>
+		<option value="12">12</option>
+	</select>
+	<br/>
+	나의 대학교는? : 
+	<input type="text" name="university" value="school"/>
+	<br/>
+	내가 좋아하는 노래는?
+	<input type="checkbox" name="song" value="1">크래용
+	<input type="checkbox" name="song" value="2">I NEED YOU
+	<input type="checkbox" name="song" value="3">립스틱
+	<input type="checkbox" name="song" value="4">너라는 명작
+	<input type="checkbox" name="song" value="5">바람기억
+	<br/>
+	나에게 하고싶은 말은?<br/>
+	<textarea cols="30" rows="5" name="someting"></textarea>
+	<br/>
+	<input type="submit"/>
+	</form>
+	<a href="main.html">HOME</a>   <a href="index1.html">1 페이지</a>   <a href="index2.html">2 페이지</a>
+</body>
+</html>
